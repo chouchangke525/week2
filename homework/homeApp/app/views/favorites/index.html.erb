@@ -1,0 +1,14 @@
+<h1><%= @the_id %></h1>
+<ul>
+
+<% @faves.each do |fave| %>
+
+<li><%=fave%></li>
+
+<% end %>
+
+</ul>
+
+<a href="./greet?salutation=Hello" target="_blank"><%=@greet%></a>
+
+
